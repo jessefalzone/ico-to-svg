@@ -1,0 +1,40 @@
+{
+    "name": "@jessefalzone/ico-to-svg",
+    "version": "0.1.0",
+    "description": "Convert .ICO icons to .SVG.",
+    "main": "index.js",
+    "type": "module",
+    "private": true,
+    "bin": {
+        "i2s": "./src/cli.js"
+    },
+    "scripts": {
+        "start": "node index.js",
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "lint": "eslint . --fix --ignore-pattern /.gitignore",
+        "format": "prettier --write src/"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/jessefalzone/ico-to-svg.git"
+    },
+    "author": "Jesse Falzone",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/jessefalzone/ico-to-svg/issues"
+    },
+    "homepage": "https://github.com/jessefalzone/ico-to-svg#readme",
+    "devDependencies": {
+        "@eslint/js": "^9.3.0",
+        "eslint": "^9.3.0",
+        "eslint-config-prettier": "^9.1.0",
+        "globals": "^15.3.0",
+        "prettier": "^3.2.5"
+    },
+    "dependencies": {
+        "icojs": "^0.19.3",
+        "meow": "^13.2.0",
+        "pixel-perfect-svg": "^0.1.0",
+        "svgo": "^3.3.2"
+    }
+}
