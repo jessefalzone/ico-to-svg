@@ -14,7 +14,8 @@ For now, clone the repo:
 
 ```bash
 git clone git@github.com:jessefalzone/ico-to-svg.git && \
-cd ico-to-svg
+cd ico-to-svg && \
+npm i
 ```
 
 Then symlink the bin:
