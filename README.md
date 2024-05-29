@@ -3,9 +3,18 @@
 A quick and dirty command to convert .ico icons to .svg. I needed a tool to
 batch process icons for research purposes.
 
+Sample input:
+
 <p float="left">
-  <img src="./network_48x48.svg" width="200" alt="Tree icon">
-  <img src="./agent_32x32.svg" width="200" alt="Agent icon">
+  <img src="./network.ico" width="48" alt="Network icon">
+  <img src="./agent.ico" width="48" alt="Agent icon">
+</p>
+
+Sample output:
+
+<p float="left">
+  <img src="./network_48x48.svg" width="200" alt="Network svg">
+  <img src="./agent_32x32.svg" width="200" alt="Agent svg">
 </p>
 
 ### Installation
