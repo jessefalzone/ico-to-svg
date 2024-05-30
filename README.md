@@ -1,6 +1,6 @@
 # ico-to-svg
 
-A quick and dirty command to convert .ico icons to .svg. I needed a tool to
+A tool to convert .ico icons to .svg. I needed a tool to
 batch process icons for research and learning purposes.
 
 ### Sample input (.ico)
