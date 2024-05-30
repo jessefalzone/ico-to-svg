@@ -32,8 +32,8 @@
         "prettier": "^3.2.5"
     },
     "dependencies": {
+        "commander": "^12.1.0",
         "icojs": "^0.19.3",
-        "meow": "^13.2.0",
         "pixel-perfect-svg": "^0.1.0",
         "svgo": "^3.3.2"
     }

@@ -1,20 +1,20 @@
 # ico-to-svg
 
 A quick and dirty command to convert .ico icons to .svg. I needed a tool to
-batch process icons for research purposes.
+batch process icons for research and learning purposes.
 
-Sample input:
+### Sample input (.ico)
 
 <p float="left">
-  <img src="./network.ico" width="48" alt="Network icon">
-  <img src="./agent.ico" width="48" alt="Agent icon">
+  <img src="./network.ico" width="150" alt="Network icon">
+  <img src="./agent.ico" width="150" alt="Agent icon">
 </p>
 
-Sample output:
+### Sample output (.svg)
 
 <p float="left">
-  <img src="./network_48x48.svg" width="200" alt="Network svg">
-  <img src="./agent_32x32.svg" width="200" alt="Agent svg">
+  <img src="./network_48x48.svg" width="150" alt="Network svg">
+  <img src="./agent_32x32.svg" width="150" alt="Agent svg">
 </p>
 
 ### Installation
@@ -42,13 +42,16 @@ i2s --help
 ### Usage
 
 ```
-$ i2s [--output | -o] <icon_or_directory> ...
+Usage: i2s [options] <icons...>
 
-Options
-  --output, -o An optional output path; will be created if it doesn't exist.
+Converts .ico icons to SVGs.
 
-Example
-$ i2s oneIcon.ico /some/more/icons --output /path/to/output
+Arguments:
+  icons                  One or more icons or paths
+
+Options:
+  -o, --output [output]  Output directory (default: "./svg")
+  -h, --help             display help for command
 ```
 
 <br>
